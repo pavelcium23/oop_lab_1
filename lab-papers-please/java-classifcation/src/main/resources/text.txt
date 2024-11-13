@@ -1,0 +1,1 @@
+Get comfortable with designing classes. Getting comfortable with instantiating different objects from the same class. Creating a deeper bond between the student and their programming language of choice. Work with modules and packages. Git git git.
