@@ -12,6 +12,14 @@ public class Main {
         display2.compareSharpness(display3);
         display1.compareWithMonitor(display3);
 
+        Assistant assistant = new Assistant("Assisant");
+        assistant.assignDisplay(display1);
+        assistant.assignDisplay(display2);
+        assistant.assignDisplay(display3);
+
+        assistant.assist();
+
+
 //reading the files
         String filePath = "/Users/suleimanpasa/oop-course-repo/lab-papers-please/java-classifcation/src/main/resources/text.txt";
         FileReader fileReader = new FileReader();
